@@ -19,9 +19,9 @@ Insert an octicons.css file in your html file to load the icons.
 
 ## Features
 
-- Enhance your personal website with react-github-activity component that:
-  - Provides visitors with quick access to your github profile
-  - Displays your public activity on GitHub
+Enhance your personal website with react-github-activity component that:
+- Provides visitors with quick access to your github profile
+- Displays your public activity on GitHub
 
 
 ## Usage
@@ -53,7 +53,6 @@ class Example extends React.Component {
       fullName={fullName} // Provide Full Name as displayed on GitHub
       userName={userName} // Provide User Name as displayed on Guthub
       avatarUrl={avatarUrl} // Provide the avatar url of your github profile
-      profileUrl={profileUrl} // provide a url to your profile
       events={events} // provide array of events using the users '/events' endpoint of github api
     />
     );
