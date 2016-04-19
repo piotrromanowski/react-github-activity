@@ -9,6 +9,14 @@ Inspired by [this repository](https://github.com/caseyscarborough/github-activit
 
 `npm install --save react-github-activity`
 
+## Dependencies
+
+Insert an octicons.css file in your html file to load the icons.
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+```
+
 ## Features
 
 - Enhance your personal website with react-github-activity component that:
