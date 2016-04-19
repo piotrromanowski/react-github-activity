@@ -5,6 +5,9 @@ Inspired by [this repository](https://github.com/caseyscarborough/github-activit
 
 ## Demo
 See in action on [my website](http://piotr.codes/)
+
+![](http://i.imgur.com/s5WLa1l.png)
+
 ## Installation
 
 `npm install --save react-github-activity`
