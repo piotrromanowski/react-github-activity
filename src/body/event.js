@@ -33,9 +33,10 @@ export default class Event extends Component {
 
   render() {
     const { actor : { login },
-            repo: { name, url },
+            repo: { name },
           created_at } = this.props.ghEvent;
 
+    const url = `https://github.com/${name}`;
     const { icon, actionType, actionUrl } = this.renderTypes(this.props.ghEvent);
 
     return (
