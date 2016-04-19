@@ -1,8 +1,9 @@
 import React from 'react';
 
 export default (props) => {
+    const profileUrl = props.profileUrl ? props.profileUrl : `https://github.com/${props.userName}`
     return (
-      <a href={ props.profileUrl } style={ props.styles.githubProfile }>
+      <a href={ profileUrl } style={ props.styles.githubProfile }>
         <div style={ props.styles.githubFullname }>
             { props.fullName }
         </div>
@@ -10,5 +11,5 @@ export default (props) => {
             { props.userName }
         </div>
       </a>
-    );  
+    );
 }

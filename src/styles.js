@@ -7,8 +7,8 @@ export const styles = {
     'minHeight': '200px',
     'width': 'inherit',
     'minWidth': '500px',
-    'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif',
-    'font-size': '1rem',
+    'fontFamily': '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif',
+    'fontSize': '1rem',
     'color': '#373a3c'
   },
   githubHeaderOuter: {

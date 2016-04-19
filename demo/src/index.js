@@ -51,7 +51,7 @@ let Demo = React.createClass({
 
     return (<div>
       <h1>react-github-activity Demo</h1>
-      <Component events={eventList} fullName='Piotr Romanowski' userName='piotrromanowski' avatarUrl='https://avatars0.githubusercontent.com/u/5794815?v=3&s=460' profileUrl='https://github.com/piotrromanowski'/>
+      <Component events={eventList} fullName='Piotr Romanowski' userName='piotrromanowski' avatarUrl='https://avatars0.githubusercontent.com/u/5794815?v=3&s=460'/>
     </div>);
   }
 })

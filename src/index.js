@@ -9,7 +9,7 @@ export default class GithubFeed extends Component {
       fullName: PropTypes.string.isRequired,
       userName: PropTypes.string.isRequired,
       avatarUrl: PropTypes.string.isRequired,
-      profileUrl: PropTypes.string.isRequired,
+      profileUrl: PropTypes.string,
       events: PropTypes.array.isRequired
     }
 
