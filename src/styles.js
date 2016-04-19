@@ -3,9 +3,9 @@ export const styles = {
     'position': 'relative',
     'display': 'table',
     'border': '1px solid #ddd',
-    'height': 'inherit',
+    'height': '100%',
     'minHeight': '200px',
-    'width': 'inherit',
+    'width': '100%',
     'minWidth': '500px',
     'fontFamily': '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif',
     'fontSize': '1rem',
@@ -83,11 +83,14 @@ export const styles = {
   githubEvent: {
     'borderTop': '1px solid #f1f1f1',
     padding: '1em 0 0',
-    padding: '1em 0 1em 25px',
+    padding: '1.5em 0 1.5em 25px',
   },
   githubEventOcticon: {
     color: '#bbb',
     'marginRight': '10px',
+  },
+  ghUrl: {
+    'color': '#0275d8',
   },
   githubTitle: {
     display: 'inline-block',

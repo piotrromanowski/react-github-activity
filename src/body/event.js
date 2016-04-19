@@ -40,11 +40,12 @@ export default class Event extends Component {
 
     return (
       <div style={ this.props.styles.githubEvent }>
-        <span className={icon}></span>
+        <span style={ this.props.styles.githubEventOcticon } className={icon}></span>
         <div style={ this.props.styles.githubTitle }>
           <a>{ login }</a> {" "}
           { actionType }
-          <a href={ actionUrl ? actionUrl : url }> { name } </a>
+          { " " }
+          <a style={ this.props.styles.ghUrl } href={ actionUrl ? actionUrl : url }> { name } </a>
         </div>
         <div style={ this.props.styles.githubTime }>
           { moment(created_at).fromNow() }
