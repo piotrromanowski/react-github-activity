@@ -4,7 +4,7 @@ A React based github-activity component.
 Inspired by [this repository](https://github.com/caseyscarborough/github-activity) I wanted to develop a github activity component that was much simpler to setup in a react project.
 
 ## Demo
-`http://piotr.codes/`
+See in action on [my website](http://piotr.codes/)
 ## Installation
 
 `npm install --save react-github-activity`
