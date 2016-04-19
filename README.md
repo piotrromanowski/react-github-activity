@@ -23,7 +23,7 @@ Inspired by [this repository](https://github.com/caseyscarborough/github-activit
   fullName={string} // Provide Full Name as displayed on GitHub
   userName={string} // Provide User Name as displayed on Guthub
   avatarUrl={string} // Provide the avatar url of your github profile
-  profileUrl={string} // provide a url to your profile
+  profileUrl={string} // optional: provide a url to your profile. default -> https://github.com/${userName}
   events={array[object]} // provide array of events using the users '/events' endpoint of github api
 />
 ```
@@ -38,7 +38,6 @@ class Example extends React.Component {
     const fullName = 'Piotr Romanowski'
     const userName = 'piotrromanowski'
     const avatarUrl = ''
-    const profileUrl = ''
     const events = [/* data result from https://api.github.com/users/${userName}/events */];
     
     return (
