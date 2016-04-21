@@ -7,6 +7,9 @@ It is recommended to pass the client ID and Secret when using the github API to 
 
 ## Demo
 See in action on [my website](http://piotr.codes/)
+
+![](http://i.imgur.com/M9ntwJS.png)
+
 ## Installation
 
 `npm install --save react-github-activity`
