@@ -33,6 +33,7 @@
   "license": "MIT",
   "repository": "https://github.com/piotrromanowski/react-github-activity",
   "keywords": [
+    "react",
     "react-component",
     "github",
     "activity"

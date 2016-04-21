@@ -3,6 +3,8 @@ A React based github-activity component.
 
 Inspired by [this repository](https://github.com/caseyscarborough/github-activity) I wanted to develop a github activity component that was much simpler to setup in a react project.
 
+It is recommended to pass the client ID and Secret when using the github API to prevent encountering the limit. learn more [here](https://developer.github.com/v3/#oauth2-keysecret)
+
 ## Demo
 See in action on [my website](http://piotr.codes/)
 ## Installation
@@ -47,7 +49,7 @@ class Example extends React.Component {
     const userName = 'piotrromanowski'
     const avatarUrl = ''
     const events = [/* data result from https://api.github.com/users/${userName}/events */];
-    
+
     return (
     <GitHubFeed
       fullName={fullName} // Provide Full Name as displayed on GitHub
