@@ -49,7 +49,7 @@ Enhance your personal website with react-github-activity component that:
 ## Example
 
 ```js
-import GitHubFeed from "react-github-activity";
+import GitHubFeed from "react-github-activity-mobile";
 
 class Example extends React.Component {
   render() {
