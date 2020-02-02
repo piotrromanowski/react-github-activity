@@ -14,7 +14,7 @@ See the project in action on [my website](https://davidplopez.com)
 
 ## Installation
 
-`npm install --save react-github-activity`
+`npm install --save react-github-activity-mobile`
 
 ## Dependencies
 
