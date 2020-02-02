@@ -1,6 +1,6 @@
 {
   "name": "react-github-activity-mobile",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Github Activity React component for mobile",
   "main": "lib/index.js",
   "jsnext:main": "es6/index.js",
