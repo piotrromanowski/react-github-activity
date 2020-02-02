@@ -29,13 +29,14 @@
     "react-dom": "0.14.x"
   },
   "author": "David P. Lopez",
-  "homepage": "",
+  "homepage": "https://www.davidplopez.com",
   "license": "MIT",
   "repository": "https://github.com/lopezdp/react-github-activity-mobile",
   "keywords": [
     "react",
     "react-component",
     "github",
-    "activity"
+    "activity",
+    "mobile"
   ]
 }
