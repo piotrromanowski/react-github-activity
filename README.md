@@ -1,6 +1,6 @@
-# react-github-activity
+# react-github-activity-mobile
 
-A React based github-activity component.
+A React based github-activity component for **MOBILE**.
 
 Inspired by [this repository](https://github.com/caseyscarborough/github-activity) and [this repo that extended it further](https://github.com/piotrromanowski/react-github-activity). I wanted to develop a github activity component that was much simpler to setup in a react project, and which was ALSO responsive to different **MOBILE DEVICE** sizes..
 
@@ -10,7 +10,7 @@ It is recommended to pass the client ID and Secret when using the github API to 
 
 See the project in action on [my website](https://davidplopez.com)
 
-![](http://i.imgur.com/M9ntwJS.png)
+![](https://raw.githubusercontent.com/lopezdp/react-github-activity-mobile/master/gh-activity-mobile.png)
 
 ## Installation
 
@@ -75,3 +75,5 @@ class Example extends React.Component {
 ## License
 
 MIT
+
+**contact:** davidplopez@live.com
