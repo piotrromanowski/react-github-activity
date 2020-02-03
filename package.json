@@ -1,7 +1,7 @@
 {
-  "name": "react-github-activity",
-  "version": "1.0.2",
-  "description": "Github Activity React component",
+  "name": "react-github-activity-mobile",
+  "version": "1.2.3",
+  "description": "Github Activity React component for mobile",
   "main": "lib/index.js",
   "jsnext:main": "es6/index.js",
   "files": [
@@ -28,14 +28,15 @@
     "react": "0.14.x",
     "react-dom": "0.14.x"
   },
-  "author": "Piotr Romanowski",
-  "homepage": "",
+  "author": "David P. Lopez",
+  "homepage": "https://www.davidplopez.com",
   "license": "MIT",
-  "repository": "https://github.com/piotrromanowski/react-github-activity",
+  "repository": "https://github.com/lopezdp/react-github-activity-mobile",
   "keywords": [
     "react",
     "react-component",
     "github",
-    "activity"
+    "activity",
+    "mobile"
   ]
 }
