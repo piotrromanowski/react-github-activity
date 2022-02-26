@@ -34,7 +34,7 @@ Enhance your personal website with react-github-activity component that:
 ```js
 <GitHubFeed
   fullName={string} // Provide Full Name as displayed on GitHub
-  userName={string} // Provide User Name as displayed on Guthub
+  userName={string} // Provide User Name as displayed on GitHub
   avatarUrl={string} // Provide the avatar url of your github profile
   profileUrl={string} // optional: provide a url to your profile. default -> https://github.com/${userName}
   events={array[object]} // provide array of events using the users '/events' endpoint of github api
@@ -56,7 +56,7 @@ class Example extends React.Component {
     return (
     <GitHubFeed
       fullName={fullName} // Provide Full Name as displayed on GitHub
-      userName={userName} // Provide User Name as displayed on Guthub
+      userName={userName} // Provide User Name as displayed on GitHub
       avatarUrl={avatarUrl} // Provide the avatar url of your github profile
       events={events} // provide array of events using the users '/events' endpoint of github api
     />
